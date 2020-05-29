@@ -1,4 +1,0 @@
-biblioteca socket
-biblioteca time
-biblioteca os
-biblioteca argparse
