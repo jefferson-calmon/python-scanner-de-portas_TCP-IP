@@ -3,15 +3,17 @@
 Esse é um script escrito em python. Ele varre as portas de um determinado ip e exibe na tela as portas abertas.
 
 
-exemplo da resposta do script
-<img src="images/exemplo1.png" align="center">
+Exemplo da resposta do script
 
-## Comandos:
+<img src="images/exemplo1.png">
+
+## Comandos
 
 * **-a** -> Nesse comando você vai especificar o alvo(ip)
 * **-s** -> Com esse comando voê tem a opção de salvar os resultados em arquivo de texto. Escreva [ **--s 1**] para salvar.
 
 Veja um exemplo de um comando abaixo:
+
 <img src="images/comando.png" align="center" height="20px">
 
 ## Opções
