@@ -46,7 +46,7 @@ print('='*50)
 print("""\nEscolha uma opçao:\n
     [0] - Verificar uma porta manualmente
     [1] - Varredura de todas as portas (Processo lento)
-    [2] - Varredura das portas mais conhecidas
+    [2] - Varredura das portas mais conhecidas (Processo Rápido)
 """)
 
 # Escolha de opções e validação de resposta
