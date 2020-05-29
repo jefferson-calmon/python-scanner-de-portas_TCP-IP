@@ -35,9 +35,9 @@ print('''
 d8'   .8P 88.  ... 88.  .88 88    88 88.  .88 
  Y88888P  `88888P' `88888P8 dP    dP `88888P' 
 
-                                    by Jefferson Ferrari''')
+                                    by Jefferson Ferrari \n''')
 
-print('')
+ 
 print('='*50)
 print(f'{"Scanner de Portas":^50}')
 print('='*50)
@@ -70,7 +70,7 @@ if opt == '0':
         time.sleep(0.5)
         print('.', end='', flush=True)
         time.sleep(0.5)
-        print('.')
+        print('.', flush=True)
         time.sleep(0.5)
 
         cliente = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -95,14 +95,12 @@ if opt == '1':
         servidor = cliente.connect_ex((argumento, ports))
         print(f'Verificando a porta {ports}')
 
-        
-
         if servidor == 0:
 
             print(f'PORTA {ports} ABERTA NO IP {argumento}')
             
             if args.s == 1:
-                arquivo = open(f'Portas Abertas/{argumento} - Portas Abertas.txt', 'a')
+                arquivo = open(f'{argumento} - Portas Abertas.txt', 'a')
                 arquivo.write(f'Porta {ports} aberta no ip {argumento}\n')
                 arquivo.close()
             
