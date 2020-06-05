@@ -1,0 +1,12 @@
+
+Disparando nerddownloads.com.br [192.185.214.134] com 32 bytes de dados:
+Resposta de 192.185.214.134: bytes=32 tempo=161ms TTL=43
+Resposta de 192.185.214.134: bytes=32 tempo=162ms TTL=43
+Resposta de 192.185.214.134: bytes=32 tempo=161ms TTL=43
+Resposta de 192.185.214.134: bytes=32 tempo=159ms TTL=43
+
+Estat¡sticas do Ping para 192.185.214.134:
+    Pacotes: Enviados = 4, Recebidos = 4, Perdidos = 0 (0% de
+             perda),
+Aproximar um n£mero redondo de vezes em milissegundos:
+    M¡nimo = 159ms, M ximo = 162ms, M‚dia = 160ms
